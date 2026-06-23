@@ -1,0 +1,11 @@
+.claude/settings.local.json
+.env
+__pycache__/
+*.pyc
+.venv/
+venv/
+Datasets/
+traces/*.jsonl
+.idea/
+*.db
+.DS_Store

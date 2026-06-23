@@ -1,0 +1,235 @@
+{
+  "check": "entity_resolution",
+  "version": "v2",
+  "metrics": {
+    "n": 31,
+    "tp": 13,
+    "fp": 1,
+    "fn": 0,
+    "tn": 17,
+    "errors": 0,
+    "precision": 0.929,
+    "recall": 1.0,
+    "accuracy": 0.968,
+    "f1": 0.963
+  },
+  "rows": [
+    {
+      "id": "f623eaf4-bd63-457f-8b7f-31989e15c024",
+      "label": "pass",
+      "pred": "pass",
+      "reason": "The Australasian Centre for Corporate Responsibility (domain accr.org.au) is the actor that launched the Vote Your Super website, matching the article sentence.",
+      "confidence": 0.95
+    },
+    {
+      "id": "f6911bc4-ee90-4387-8f4b-a2236f93413c",
+      "label": "pass",
+      "pred": "pass",
+      "reason": "Toshiba Medical Systems Corporation was rebranded as Canon Medical Systems; the domain medical.canon confirms this is the same entity now operating under the Canon Medical name.",
+      "confidence": 0.85
+    },
+    {
+      "id": "f7eae054-206f-4fa8-a6ae-2de4f407144a",
+      "label": "pass",
+      "pred": "pass",
+      "reason": "Cibus US LLC (cibus.com) is the subject actor in the sentence announcing the strategic partnership with Loveland Products Inc.",
+      "confidence": 0.95
+    },
+    {
+      "id": "f8c2358d-cb0e-40cc-8d36-cc7ec3d400dc",
+      "label": "pass",
+      "pred": "pass",
+      "reason": "Toshiba Medical Systems Corporation was rebranded as Canon Medical Systems Corporation; the domain medical.canon confirms this is the same entity referenced as 'Canon Medical' in the article.",
+      "confidence": 0.82
+    },
+    {
+      "id": "f8ed3dce-df3e-4da1-b3aa-63811707b430",
+      "label": "pass",
+      "pred": "pass",
+      "reason": "Toshiba Medical Systems Corporation was renamed Canon Medical Systems Corporation; the domain medical.canon confirms they are the same entity, so the linked company matches the article's actor.",
+      "confidence": 0.82
+    },
+    {
+      "id": "051b04f6-a039-4069-b6e6-45d7f75b1dd1",
+      "label": "pass",
+      "pred": "pass",
+      "reason": "The article sentence explicitly names 'Scrubs' as the actor that compiled the list, matching the linked company by both name and domain (scrubs.com.au).",
+      "confidence": 0.9
+    },
+    {
+      "id": "082c9bc2-9e24-4e73-a6cd-2579bec5395d",
+      "label": "pass",
+      "pred": "pass",
+      "reason": "Consult Recruitment is explicitly named as the acquiring actor in the article sentence, matching the linked company exactly.",
+      "confidence": 0.99
+    },
+    {
+      "id": "0b1e95c9-9a06-4bd8-80e0-9f8cf7b03f67",
+      "label": "pass",
+      "pred": "pass",
+      "reason": "Ellume (ellume.com) is explicitly named as the actor that created the QIAREACH COVID-19 antigen and antibody tests described in the sentence.",
+      "confidence": 0.9
+    },
+    {
+      "id": "0bd5b90d-53f3-41c2-b895-177e56dd4b5c",
+      "label": "pass",
+      "pred": "pass",
+      "reason": "The article sentence names Perfectlyimperfect as the actor entering a partnership, matching the linked company by both name and domain.",
+      "confidence": 0.95
+    },
+    {
+      "id": "0d352124-321b-4a76-9eba-d25fe67383db",
+      "label": "pass",
+      "pred": "fail",
+      "reason": "The article sentence attributes the vaccine development work to Associate Professor Kaur's research (implied subject), while 'Science & Technology Australia' is mentioned only as a beneficiary of understanding, not as the actor developing vaccines; furthermore, the linked entity 'Science & Technology Australia Chief' is a person/role, not the organization itself.",
+      "confidence": 0.75
+    },
+    {
+      "id": "0f450055-b59a-482c-96b8-2f499dcc927b",
+      "label": "pass",
+      "pred": "pass",
+      "reason": "Exide Industries (exideindustries.com) is correctly identified as the seller/actor that sold Exide Life assets to HDFC Life, matching the article's description of Exide Industries as the parent that divested its ownership.",
+      "confidence": 0.82
+    },
+    {
+      "id": "0f6e81ee-2a9d-4ad1-a86d-51f813e1e9c5",
+      "label": "pass",
+      "pred": "pass",
+      "reason": "The article sentence explicitly names Ellume as the actor building the manufacturing facility in Maryland, matching the linked company.",
+      "confidence": 0.99
+    },
+    {
+      "id": "100123f4-b804-4a92-b154-f44c92a5c0ae",
+      "label": "pass",
+      "pred": "pass",
+      "reason": "The article sentence explicitly names Clintonstoyota as the entity that launched the Toyota 86 in Australia, matching the linked company by both name and domain.",
+      "confidence": 0.95
+    },
+    {
+      "id": "152f472c-9394-42e8-bcf1-40be78bc23c9",
+      "label": "pass",
+      "pred": "pass",
+      "reason": "Convoke, Inc. is identified by domain convokesystems.com and matches the actor 'Convoke' in the sentence that describes developing and releasing platform updates.",
+      "confidence": 0.9
+    },
+    {
+      "id": "168e18e6-defe-49bc-a9f0-5333bc1751ab",
+      "label": "pass",
+      "pred": "pass",
+      "reason": "Futura Medical plc is explicitly named as the actor announcing the financing transaction in the article sentence, matching the linked company by both name and domain.",
+      "confidence": 0.99
+    },
+    {
+      "id": "1bde68a9-05c4-45d6-b97b-ea9859f3663d",
+      "label": "pass",
+      "pred": "pass",
+      "reason": "Switch Connect PTY LTD is clearly the same entity as 'Switch Connect' named in the article sentence as the company appointing Paul Saba as Channel Director.",
+      "confidence": 0.95
+    },
+    {
+      "id": "1c3a97ea-be53-4136-8155-d42628b2df28",
+      "label": "pass",
+      "pred": "pass",
+      "reason": "The article sentence confirms that Twisteddesire (twisteddesire.com.au) is the subject that partnered with Showpony Professional, matching the linked company1.",
+      "confidence": 0.95
+    },
+    {
+      "id": "1cc5a6e4-eb6f-49a7-8dd8-3a8bc90d3f16",
+      "label": "pass",
+      "pred": "pass",
+      "reason": "Diveplane Corp. is explicitly named as the actor in the article sentence, matching the linked company exactly.",
+      "confidence": 0.99
+    },
+    {
+      "id": "0020f127-3470-4cce-8989-1c79f45da217",
+      "label": "fail",
+      "pred": "fail",
+      "reason": "The article's specific actor is 'Unipart Logistics', but the linked company is 'Unipart Manufacturing Group' \u2014 a different subsidiary under the same Unipart parent (Rule 1).",
+      "confidence": 0.95
+    },
+    {
+      "id": "0d7b4d99-3581-4402-9e1a-9b1d56e14c16",
+      "label": "fail",
+      "pred": "fail",
+      "reason": "The article sentence names 'Unipart Logistics Limited' as the actor making the appointment, but the linked company is 'Unipart Manufacturing Group' \u2014 a different subsidiary under the same Unipart umbrella (Rule 1).",
+      "confidence": 0.95
+    },
+    {
+      "id": "0e58d97e-b391-4f20-9a51-52292a258094",
+      "label": "fail",
+      "pred": "fail",
+      "reason": "The article names 'Unipart Rail' as the specific actor forming the partnership, but the linked company is 'Unipart Manufacturing Group', a different subsidiary under the Unipart umbrella \u2014 Rule 1 applies.",
+      "confidence": 0.95
+    },
+    {
+      "id": "151a51b8-7fde-4bbe-ba71-188c735849ed",
+      "label": "fail",
+      "pred": "fail",
+      "reason": "The article's specific actor is 'Master Changan Motors' (a Pakistani joint venture/subsidiary), not 'Changan International Corporation', which is a different entity \u2014 Rule 1 applies.",
+      "confidence": 0.85
+    },
+    {
+      "id": "142d63fc-6bef-46d9-a931-a2658ff77da4",
+      "label": "fail",
+      "pred": "fail",
+      "reason": "The article refers to Changan (the Chinese automaker, likely Chongqing Changan Automobile), while the linked entity 'Changan International Corporation' with domain 'changan.com.pk' appears to be a Pakistani company unrelated to the Chinese NEV manufacturer investing in Thailand.",
+      "confidence": 0.85
+    },
+    {
+      "id": "09edb518-5103-46e2-8912-93e505c57c00",
+      "label": "fail",
+      "pred": "fail",
+      "reason": "The article's actor is 'Maori and Pacific business networks,' a specific entity or group, while the linked company 'Maori' with domain maori.com cannot be identified as that specific business network organization, making the entity resolution too vague or incorrect.",
+      "confidence": 0.7
+    },
+    {
+      "id": "bdb19f5f-073b-4d70-b06b-73f31f0c5bd3",
+      "label": "fail",
+      "pred": "fail",
+      "reason": "The article names MVM Tisza Er\u0151m\u0171 as the specific actor signing the contract, while the linked company is the parent MVM Hungarian Electricity Ltd. \u2014 a different entity per Rule 1.",
+      "confidence": 0.92
+    },
+    {
+      "id": "5ea5ff59-95b0-4eae-89c9-f27567df31ba",
+      "label": "fail",
+      "pred": "fail",
+      "reason": "The article sentence is about Louisiana (the state) receiving flood mitigation funding, not about Advocate (theadvocate.com, a Louisiana news publication).",
+      "confidence": 0.95
+    },
+    {
+      "id": "2b9adf9c-e216-4718-bed0-34f5318ca460",
+      "label": "fail",
+      "pred": "fail",
+      "reason": "The article sentence names Alethea as the actor raising funds, not Golden Valley, Inc., which would be the investor/counterparty; additionally, the lead investor mentioned is Google Ventures, not Golden Valley, Inc.",
+      "confidence": 0.9
+    },
+    {
+      "id": "b86e6f48-dc30-4d42-b31f-5435c545ace7",
+      "label": "fail",
+      "pred": "fail",
+      "reason": "The article's actor is the U.S. Navy, not the United Nations; these are entirely different entities despite sharing the 'UN' acronym.",
+      "confidence": 0.99
+    },
+    {
+      "id": "cee7eed6-7ac6-4555-be7f-1adfc1c25488",
+      "label": "fail",
+      "pred": "fail",
+      "reason": "The article sentence is about DARPA selecting Raytheon's BBN Technologies, not about Phsar Tech signing any client or being mentioned as an actor.",
+      "confidence": 0.95
+    },
+    {
+      "id": "6269ba37-eb7a-41bc-b0d7-d91d57609ded",
+      "label": "fail",
+      "pred": "fail",
+      "reason": "The METI in the article is placing industrial operators for shutdowns, which is inconsistent with Medical Education Technologies' medical simulation business \u2014 this is a same-acronym collision with a different entity.",
+      "confidence": 0.92
+    },
+    {
+      "id": "0c357aa0-7579-4e99-bdf2-f0cf71c9e07f",
+      "label": "fail",
+      "pred": "fail",
+      "reason": "The article's actor is Louisiana State University's cybersecurity research division, not its center for river studies \u2014 a different specific unit of LSU.",
+      "confidence": 0.82
+    }
+  ]
+}

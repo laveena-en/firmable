@@ -1,0 +1,382 @@
+{
+  "check": "semantic_accuracy",
+  "version": "v1",
+  "metrics": {
+    "n": 52,
+    "tp": 12,
+    "fp": 5,
+    "fn": 2,
+    "tn": 33,
+    "errors": 0,
+    "precision": 0.706,
+    "recall": 0.857,
+    "accuracy": 0.865,
+    "f1": 0.774
+  },
+  "rows": [
+    {
+      "id": "95615ff2-7a65-4f64-9f58-fd6edf1d5ae6",
+      "label": "pass",
+      "pred": "pass",
+      "reason": "The sentence clearly describes EVERSANA CONSULTING being recognized/named as a Top Ranked Boutique Consulting firm, which directly supports the 'recognized_as' category.",
+      "confidence": 0.95
+    },
+    {
+      "id": "e463c7dc-c342-432e-9c5f-a38d7d524276",
+      "label": "pass",
+      "pred": "pass",
+      "reason": "The sentence clearly describes a product launch by NatureWise in January 2013, directly supporting the 'launches' category and matching the summary.",
+      "confidence": 0.95
+    },
+    {
+      "id": "84935dbc-4123-42b9-a98d-45c379e720fb",
+      "label": "pass",
+      "pred": "pass",
+      "reason": "The sentence clearly describes Tubi launching Sports on Tubi through a partnership with Fox Sports in August 2021, directly supporting the launch category and summary.",
+      "confidence": 0.95
+    },
+    {
+      "id": "2a1d1cc6-b10d-47f5-81b7-2c0e57108c1c",
+      "label": "pass",
+      "pred": "pass",
+      "reason": "The article sentence clearly states that Lincoln Minerals appointed Grace Tsui as Chief Executive Officer, which directly supports the 'hires' category and matches the summary.",
+      "confidence": 0.92
+    },
+    {
+      "id": "fc50331e-f55d-49fd-acc4-2b4fc98f4e5c",
+      "label": "pass",
+      "pred": "pass",
+      "reason": "The sentence clearly describes a partnership deal between Tubi and Foxtel Group with specific commercial terms (ad sales representation), directly supporting the 'partners_with' category.",
+      "confidence": 0.95
+    },
+    {
+      "id": "c2675e35-4b76-49d0-81f6-9448cdb1daf1",
+      "label": "pass",
+      "pred": "pass",
+      "reason": "The sentence clearly describes Southwest Airlines experiencing issues (unscheduled landing, cracked window, and a fatal accident), directly supporting the 'has_issues_with' category.",
+      "confidence": 0.92
+    },
+    {
+      "id": "794a088c-139b-4143-a9fe-48b16e024561",
+      "label": "pass",
+      "pred": "pass",
+      "reason": "The article sentence clearly describes SsangYong launching/introducing styling upgrades to the 2021 Musso 4x4, which directly supports the 'launches' category.",
+      "confidence": 0.92
+    },
+    {
+      "id": "b1176530-7170-4056-a850-c9c8d53432cd",
+      "label": "pass",
+      "pred": "pass",
+      "reason": "The sentence directly states that Dee Leggett was named (hired/appointed) to the role of director of zero-emissions planning at LTK Engineering Services, which clearly matches the hiring category.",
+      "confidence": 0.95
+    },
+    {
+      "id": "3229fc68-a29f-428b-82f2-f6ec256d289a",
+      "label": "pass",
+      "pred": "pass",
+      "reason": "The sentence clearly describes AbbVie filing a legal complaint against Genmab, which directly supports the 'files_suit_against' category.",
+      "confidence": 0.95
+    },
+    {
+      "id": "1f328516-73c9-4c59-a509-c33378a97222",
+      "label": "pass",
+      "pred": "pass",
+      "reason": "The article sentence clearly states that Noah Asher has joined NWN as Chief Financial Officer, which directly supports the hire category and matches the summary's claim.",
+      "confidence": 0.95
+    },
+    {
+      "id": "4ba67626-f810-4e65-a495-42968e4f4d5d",
+      "label": "pass",
+      "pred": "pass",
+      "reason": "The article sentence clearly states that Argent partnered with LayerSwap to enable a specific capability (bridging assets to zkSync from CEXs), which directly supports the partnership category claim.",
+      "confidence": 0.95
+    },
+    {
+      "id": "e7890e2e-c94f-44b0-83ba-c682313d1e1e",
+      "label": "pass",
+      "pred": "pass",
+      "reason": "The article sentence clearly states Lincoln retired from the SAPS (South African Police Service) in late 2021, which directly supports the retires_from category and aligns with the summary's claim of Dec 31st '21 retirement.",
+      "confidence": 0.92
+    },
+    {
+      "id": "22f605f7-6041-4c25-a169-000394c2dfdf",
+      "label": "pass",
+      "pred": "pass",
+      "reason": "The sentence clearly describes HHS awarding a $4M grant to Mountain Area Health Education Center on June 1st, which supports the 'invests_into' category as a financial commitment/investment.",
+      "confidence": 0.92
+    },
+    {
+      "id": "68934b5d-09df-4ae6-9a13-047f848db3e3",
+      "label": "pass",
+      "pred": "pass",
+      "reason": "The sentence clearly describes a collaboration agreement between Antidote Therapeutics and the National Cancer Institute, which is a partnership event.",
+      "confidence": 0.92
+    },
+    {
+      "id": "12bffdd2-f1cd-493b-b3fd-44990cb5e69f",
+      "label": "pass",
+      "pred": "pass",
+      "reason": "The sentence clearly states that AYC (ATAA Youth Committee) intends to develop a 'Resource' for the Turkish American community, directly supporting the is_developing category.",
+      "confidence": 0.92
+    },
+    {
+      "id": "eb87a36c-ab6d-4c30-9229-40906be3c492",
+      "label": "pass",
+      "pred": "fail",
+      "reason": "The sentence describes James joining Longitude, not leaving North Oil Company; the category 'leaves' is not supported by a joining event.",
+      "confidence": 0.95
+    },
+    {
+      "id": "181bea43-ac24-4e22-a342-88722d7f2b9b",
+      "label": "pass",
+      "pred": "pass",
+      "reason": "The article sentence explicitly states Tui Ora 'received a $100,000 grant from the Ministry of Health', which directly supports the receives_financing category and matches the summary.",
+      "confidence": 0.95
+    },
+    {
+      "id": "15462abf-6e3c-4587-8f58-f01058f4dccf",
+      "label": "pass",
+      "pred": "fail",
+      "reason": "The sentence describes ACL distributing grants FROM its budget to recipients, not ACL investing INTO HHS; the direction of capital flow is reversed from the claimed category.",
+      "confidence": 0.95
+    },
+    {
+      "id": "ea39a932-81fd-4db2-a05d-e8cd4a06c9ea",
+      "label": "pass",
+      "pred": "pass",
+      "reason": "The article sentence clearly states that Neuromersiv was named in the Top 20 of a prestigious innovation list, which directly supports the 'recognized_as' category and matches the summary's core claim.",
+      "confidence": 0.95
+    },
+    {
+      "id": "d1ea3b89-0b94-432c-bfec-fc60a3c804e9",
+      "label": "pass",
+      "pred": "pass",
+      "reason": "The sentence clearly describes Robert S.D. Higgins leaving his current position at a Massachusetts hospital to take a new role at Rush University, directly supporting the 'leaves' category.",
+      "confidence": 0.95
+    },
+    {
+      "id": "e35c6111-41f7-455e-b358-b6f7599f88a6",
+      "label": "fail",
+      "pred": "fail",
+      "reason": "The sentence uses 'plans to spend', which is speculative and forward-looking, whereas 'invests_into_assets' implies a completed or committed investment action.",
+      "confidence": 0.92
+    },
+    {
+      "id": "b3955f34-b0f9-4c96-b7d9-4faae8e748dd",
+      "label": "fail",
+      "pred": "fail",
+      "reason": "The sentence describes a legal decision discussing the relevance of corrupt purpose to a statute; it does not assert that MLC Asset Management actually has issues with or engages in corrupt purpose.",
+      "confidence": 0.92
+    },
+    {
+      "id": "6f3f0725-5b04-4517-a0d4-b5ad7bed7d81",
+      "label": "pass",
+      "pred": "pass",
+      "reason": "The sentence clearly states Southwest Airlines was named to Newsweek's list of Best Loyalty Programs 2022, which directly supports the 'recognized_as' category.",
+      "confidence": 0.95
+    },
+    {
+      "id": "7dc095af-c15e-4572-8deb-1cb12c504886",
+      "label": "pass",
+      "pred": "pass",
+      "reason": "The sentence clearly describes Rush University receiving $1 million in financing/funding, which directly supports the 'receives_financing' category.",
+      "confidence": 0.95
+    },
+    {
+      "id": "ffd5a9af-4d1b-4e32-bf2b-5d2fce6a3964",
+      "label": "fail",
+      "pred": "pass",
+      "reason": "The sentence explicitly references the ATAA Youth Committee's presence and participation at the 2023 ATAA Conference, where they attended a presentation and engaged with conference content.",
+      "confidence": 0.92
+    },
+    {
+      "id": "504b148a-e29a-4ffe-8a00-aa4cc14cfa1b",
+      "label": "pass",
+      "pred": "fail",
+      "reason": "The sentence describes a lawsuit and settlement involving both Southwest Airlines and Frontier Airlines, but conflates two separate enforcement actions; the settlement details (Frontier paying $650k) do not clearly establish what Southwest agreed to, making the summary's claim about Southwest's issues unsupported by the evidence provided.",
+      "confidence": 0.85
+    },
+    {
+      "id": "61b31b1a-da85-4e39-be12-5b1c17addb09",
+      "label": "pass",
+      "pred": "pass",
+      "reason": "The article sentence directly states that Martinair merged with KLM in 2014, which clearly supports the merges_with category and is consistent with the summary.",
+      "confidence": 0.95
+    },
+    {
+      "id": "52eaa167-85aa-4132-98ab-bcd90bd354f5",
+      "label": "pass",
+      "pred": "fail",
+      "reason": "The sentence describes a Series E funding round led by Bain Capital Ventures with multiple participants, not a specific $17.5M investment by Hyde Park Venture Partners on Jun 6th '17; the date, amount, and investment structure in the summary do not match the article sentence.",
+      "confidence": 0.95
+    },
+    {
+      "id": "0bfd4443-5f90-4c8d-ac28-22bd258a8eb6",
+      "label": "pass",
+      "pred": "pass",
+      "reason": "The sentence clearly states that Leumi ABL selected Encompass Corporation, which is a definitive new client relationship being established.",
+      "confidence": 0.92
+    },
+    {
+      "id": "17db5839-f5cc-4b19-bc27-b58feb48b902",
+      "label": "pass",
+      "pred": "pass",
+      "reason": "The article sentence explicitly states that Healthware will merge with EVERSANA INTOUCH, directly supporting the merges_with category.",
+      "confidence": 0.95
+    },
+    {
+      "id": "c0ce36c2-5d42-472e-90a5-e4970a541a92",
+      "label": "pass",
+      "pred": "pass",
+      "reason": "The sentence clearly describes opening a new physical location (flagship store) in Kazakhstan, which directly supports the opens_new_location category.",
+      "confidence": 0.92
+    },
+    {
+      "id": "d19c80fb-ea3b-4e7e-85c5-3364c439d2d9",
+      "label": "pass",
+      "pred": "pass",
+      "reason": "The article sentence clearly states that TCL has selected Magnite, which directly supports the signs_new_client category and matches the summary's claim of a new client signing on Nov 12th, 2024.",
+      "confidence": 0.95
+    },
+    {
+      "id": "b364355d-47e0-474d-89e6-74d6f2ef459a",
+      "label": "pass",
+      "pred": "pass",
+      "reason": "The article sentence explicitly states that Frameplay 'has integrated with Magnite' and describes the technical outcome of this integration, directly supporting the integrates_with category.",
+      "confidence": 0.95
+    },
+    {
+      "id": "6ee69d31-9476-4966-b1f5-3f85c8c86f88",
+      "label": "pass",
+      "pred": "pass",
+      "reason": "The article sentence clearly describes Magnite's acquisition of Telaria, directly supporting the 'acquires' category and the summary.",
+      "confidence": 0.95
+    },
+    {
+      "id": "61436e63-8307-4cf5-998c-b0132e493938",
+      "label": "pass",
+      "pred": "pass",
+      "reason": "The sentence clearly describes a partnership collaboration between Marriott International and KKR involving a joint hotel brand initiative in Japan, directly supporting the partners_with category.",
+      "confidence": 0.92
+    },
+    {
+      "id": "64b233f6-6169-492f-bf48-88967e9cb8e0",
+      "label": "pass",
+      "pred": "pass",
+      "reason": "The article sentence clearly states that Marriott International 'has launched' Le M\u00e9ridien City Center Doha, which directly supports the 'launches' category and matches the summary.",
+      "confidence": 0.95
+    },
+    {
+      "id": "69183fbe-ea6e-4673-8f58-e27b93ed82c4",
+      "label": "fail",
+      "pred": "fail",
+      "reason": "The sentence uses \"announced plans to introduce\" which is speculative/future intent, not a completed launch event.",
+      "confidence": 0.92
+    },
+    {
+      "id": "6ca1b412-563a-438c-8786-026efcdaa29a",
+      "label": "pass",
+      "pred": "pass",
+      "reason": "The sentence explicitly states Marriott announced the third iteration of the training programme, which directly supports the launch category.",
+      "confidence": 0.92
+    },
+    {
+      "id": "6ca66ada-e803-4764-95de-acb27a7d0881",
+      "label": "fail",
+      "pred": "fail",
+      "reason": "The sentence uses 'plans to' (future/speculative intent) rather than describing a completed launch event, which contradicts the 'launches' category and the summary's past-tense claim of Mar 3rd '22.",
+      "confidence": 0.95
+    },
+    {
+      "id": "6cd78b8d-771e-4299-89e3-da7ec17ee59c",
+      "label": "pass",
+      "pred": "pass",
+      "reason": "The article sentence clearly describes Marriott International launching 'The 5Gs of Human Connection' campaign, directly supporting the launches category and summary.",
+      "confidence": 0.95
+    },
+    {
+      "id": "75083ab4-6522-437b-bcb7-3df1aee851b8",
+      "label": "pass",
+      "pred": "pass",
+      "reason": "The sentence clearly describes Marriott International appointing (hiring) Peter Minatsis for a General Manager position, which directly supports the 'hires' category.",
+      "confidence": 0.92
+    },
+    {
+      "id": "7641608b-17a8-4e15-81a8-f8a7e22350de",
+      "label": "fail",
+      "pred": "fail",
+      "reason": "The sentence uses 'plans to debut' which is speculative and indicates a future intention, not a completed launch event.",
+      "confidence": 0.9
+    },
+    {
+      "id": "7d38957d-0f3f-42f1-bdfa-040c60efb266",
+      "label": "fail",
+      "pred": "fail",
+      "reason": "The sentence describes a future planned launch ('is set to launch', 'in early 2021') rather than a completed launch event, and the summary claims a launch on Jul 9th '20 which contradicts the article's early 2021 timeframe.",
+      "confidence": 0.95
+    },
+    {
+      "id": "80afd988-78d8-4afa-aba5-f3727882c4ba",
+      "label": "pass",
+      "pred": "pass",
+      "reason": "The article sentence clearly describes Britvic entering into a partnership with Atrato Onsite Energy (a renewables provider) for a solar installation project, which directly supports the 'partners_with' category.",
+      "confidence": 0.92
+    },
+    {
+      "id": "81edfae3-85a2-49b8-8e92-e4eda2634aeb",
+      "label": "fail",
+      "pred": "fail",
+      "reason": "The sentence describes an ongoing antitrust review delaying a merger, not the merger itself being completed or announced as planned; the language suggests a deal in progress facing obstacles, not a finalized or newly planned merger.",
+      "confidence": 0.85
+    },
+    {
+      "id": "830945d4-c3c2-4d3e-8e96-2c75a5a1a7d2",
+      "label": "fail",
+      "pred": "fail",
+      "reason": "The sentence uses 'has plans to launch' which is speculative and future-oriented, whereas the 'launches' category implies a completed action.",
+      "confidence": 0.92
+    },
+    {
+      "id": "95acd93a-7075-471c-be17-3d81a25b11e0",
+      "label": "fail",
+      "pred": "fail",
+      "reason": "The sentence uses future tense ('is set to introduce') indicating a planned event, not a completed launch; the summary claims a launch occurred on a specific date (Mar 15th '19) but the sentence only expresses intent.",
+      "confidence": 0.95
+    },
+    {
+      "id": "a8a018f6-d2ca-4a98-b366-c10e7b9d88b6",
+      "label": "fail",
+      "pred": "fail",
+      "reason": "The sentence describes plans and a partnership announcement, not a completed launch. The verb 'revealed plans to extend' is speculative and forward-looking, whereas 'launches' implies a completed action.",
+      "confidence": 0.92
+    },
+    {
+      "id": "b39710a1-f70c-4c72-b6f3-f8c353ebd87e",
+      "label": "fail",
+      "pred": "fail",
+      "reason": "The sentence describes plans to introduce a property (future intent), not a completed launch event; additionally, it concerns a different property (Bahamas) not Wuhan.",
+      "confidence": 0.95
+    },
+    {
+      "id": "bcc7350e-129c-48e5-865b-a98a70d68ec3",
+      "label": "pass",
+      "pred": "fail",
+      "reason": "The sentence announces a future appointment 'set to open early 2023', not a completed hiring event as of the stated date (Jun 29th '22). The language is prospective rather than describing a finalized hire.",
+      "confidence": 0.92
+    },
+    {
+      "id": "c7ee4f3d-521d-48e4-84bd-7be23bfa47f7",
+      "label": "fail",
+      "pred": "pass",
+      "reason": "The article sentence clearly describes the launch of a specific resort by Marriott International in October 2018, directly supporting the 'launches' category.",
+      "confidence": 0.92
+    },
+    {
+      "id": "d73fd2db-9f18-427c-83e5-058d3fabbd12",
+      "label": "fail",
+      "pred": "fail",
+      "reason": "The sentence uses 'planning to introduce' which is speculative and forward-looking, whereas the category 'launches' implies a completed action that has already occurred.",
+      "confidence": 0.92
+    }
+  ]
+}

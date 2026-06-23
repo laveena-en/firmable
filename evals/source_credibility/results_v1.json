@@ -1,0 +1,228 @@
+{
+  "check": "source_credibility",
+  "version": "v1",
+  "metrics": {
+    "n": 30,
+    "tp": 11,
+    "fp": 0,
+    "fn": 1,
+    "tn": 18,
+    "errors": 0,
+    "precision": 1.0,
+    "recall": 0.917,
+    "accuracy": 0.967,
+    "f1": 0.957
+  },
+  "rows": [
+    {
+      "id": "0e718e05-c98a-427e-bc72-b97d7bf440b6",
+      "label": "pass",
+      "pred": "pass",
+      "reason": "A specific, dated ranking event (Times Higher Education Young University Rankings 2023) placing LPU in a concrete rank band, reported via Business Wire press release.",
+      "confidence": 0.82
+    },
+    {
+      "id": "58b23689-341e-4b3a-b5a7-be42fdb10921",
+      "label": "fail",
+      "pred": "fail",
+      "reason": "Promotional content on the company's own website announcing a brand ambassador role with no concrete dated event details, functioning as marketing copy rather than independent news reporting.",
+      "confidence": 0.9
+    },
+    {
+      "id": "6a0c23f4-173a-47d3-97dd-508203a38eeb",
+      "label": "pass",
+      "pred": "pass",
+      "reason": "Dillard's filing a federal lawsuit against Wells Fargo alleging breach of a co-branded credit card relationship is a specific, reportable legal/business event.",
+      "confidence": 0.97
+    },
+    {
+      "id": "223324ab-6d84-4a04-876d-4f7e0e1fda7f",
+      "label": "pass",
+      "pred": "pass",
+      "reason": "Concrete partnership/collaboration event between CRPF and LPU resulting in the inauguration of a specific new institute (IINM) in Jalandhar, reported as dated news by UNI wire service.",
+      "confidence": 0.88
+    },
+    {
+      "id": "bfc3496b-4def-4161-9035-47d13528a6a2",
+      "label": "pass",
+      "pred": "pass",
+      "reason": "Forbes article reports specific Q3 financial results and a store closure announcement for Dillard's, both concrete business events.",
+      "confidence": 0.95
+    },
+    {
+      "id": "85955872-4792-46b8-bfb5-ee0c9789540a",
+      "label": "fail",
+      "pred": "fail",
+      "reason": "This is a high school sports story about a basketball coach retiring, not a business event about a company or organization in a B2B context.",
+      "confidence": 0.97
+    },
+    {
+      "id": "f4c2b557-3c83-41f5-af32-c1652c0c50fb",
+      "label": "fail",
+      "pred": "fail",
+      "reason": "This is a newsletter/digest roundup of multiple unrelated business items rather than coverage of one specific reportable event.",
+      "confidence": 0.95
+    },
+    {
+      "id": "377f9e23-43d7-43c3-a5cb-74ad26eabe24",
+      "label": "pass",
+      "pred": "pass",
+      "reason": "Concrete, dated award/ranking event \u2014 LPU receiving a specific placement in the Times Higher Education Impact Rankings 2022 \u2014 reported via a wire service (ANI/NewsVoir).",
+      "confidence": 0.82
+    },
+    {
+      "id": "98aff588-6267-4f58-bbe2-98acfa0d0f8e",
+      "label": "pass",
+      "pred": "pass",
+      "reason": "Concrete appointment of Debbie Mortimer as chief justice of the Federal Court, a specific leadership hire event reported as news.",
+      "confidence": 0.95
+    },
+    {
+      "id": "5954298f-e367-49b2-8b8a-aa5672f18b97",
+      "label": "pass",
+      "pred": "pass",
+      "reason": "Specific Series B funding event ($20M) for D.C.-based Alethea, reported as news by bizjournals with concrete details including investors, use of funds, and board appointment.",
+      "confidence": 0.95
+    },
+    {
+      "id": "584025a1-4a54-438b-b941-da12954f44a7",
+      "label": "pass",
+      "pred": "pass",
+      "reason": "Reports a specific, completed conservation operation by Island Conservation (a nonprofit organization) involving a major invasive species removal project at Tetiaroa Atoll in June-July 2022, constituting a concrete, reportable organizational event.",
+      "confidence": 0.82
+    },
+    {
+      "id": "7158aeb4-0c55-423f-b818-587634254684",
+      "label": "fail",
+      "pred": "fail",
+      "reason": "This is an interview/promotional piece with no concrete dated business event; it reads as advertorial content showcasing the company's technology.",
+      "confidence": 0.88
+    },
+    {
+      "id": "350a6aa9-0549-43b6-a352-d3ceacca3466",
+      "label": "pass",
+      "pred": "pass",
+      "reason": "Concrete retail expansion event \u2014 Dillard's opening a new store at Mesa Mall in Grand Junction, Colorado, with specific timeline and square footage details.",
+      "confidence": 0.92
+    },
+    {
+      "id": "932cef38-7e7c-4fde-91a6-c70ee4bf136c",
+      "label": "pass",
+      "pred": "pass",
+      "reason": "Specific business event reporting Dillard's closing named store locations across three states while also announcing a new store opening, with concrete financial details.",
+      "confidence": 0.92
+    },
+    {
+      "id": "68899b4f-4fa3-430e-adad-43ee6f7027c3",
+      "label": "fail",
+      "pred": "fail",
+      "reason": "The company (Dillard's/Southern Park Mall) is merely a location/backdrop for a public health vaccination site, not the actor in a business event.",
+      "confidence": 0.9
+    },
+    {
+      "id": "cad290a1-68f7-4cea-93c0-e78610f8ebf4",
+      "label": "pass",
+      "pred": "pass",
+      "reason": "Specific business closure event: Dillard's announces closing of its MacArthur Center Norfolk location in September, with concrete details about the store's transition plans and context.",
+      "confidence": 0.95
+    },
+    {
+      "id": "6ae363f1-5079-42d8-9dc9-bb7ba38111cb",
+      "label": "fail",
+      "pred": "fail",
+      "reason": "This is a newsletter/digest (In Brief #1131) containing a roundup of multiple unrelated items including judicial farewells, appointments, obituaries, and program notices \u2014 not a single specific reportable business event.",
+      "confidence": 0.95
+    },
+    {
+      "id": "3399335f-5790-414c-99b1-123008134ec3",
+      "label": "pass",
+      "pred": "pass",
+      "reason": "Press release on GlobeNewswire announces a concrete senior executive hire (SVP of Engineering and Operations) at Global Geoscience Limited.",
+      "confidence": 0.97
+    },
+    {
+      "id": "6bc9b3c3-25ef-4dc5-a73e-6e5f8b7ad70a",
+      "label": "fail",
+      "pred": "pass",
+      "reason": "Reports a specific product launch \u2014 Oncyber's new AI-powered Magic Composer tool \u2014 as a concrete, dated business event covered by a third-party news outlet.",
+      "confidence": 0.82
+    },
+    {
+      "id": "e728a2a2-d5e8-4073-b67f-4b695e50e85b",
+      "label": "pass",
+      "pred": "pass",
+      "reason": "Specific award event \u2014 Kaikoura Helicopters/GCH Aviation receiving Qualmark Gold certification \u2014 reported as news on Scoop.",
+      "confidence": 0.82
+    },
+    {
+      "id": "c39fe41f-4480-417c-b6bb-fdce67cf57ad",
+      "label": "pass",
+      "pred": "pass",
+      "reason": "Specific business expansion event: Dillard's acquiring former Younkers space for $1.3M and undertaking a $9.9M remodeling project at Gateway Mall in Lincoln.",
+      "confidence": 0.92
+    },
+    {
+      "id": "8ff27bd8-321b-4b0b-b4d6-20fc10ca75ca",
+      "label": "pass",
+      "pred": "pass",
+      "reason": "Specific partnership and retail launch event: Kurt Geiger's Carvela brand launching in 75 Dillard's stores, a concrete dated business expansion.",
+      "confidence": 0.95
+    },
+    {
+      "id": "2f11dabb-cd52-4958-b861-6430861aa784",
+      "label": "fail",
+      "pred": "fail",
+      "reason": "This is an obituary for an individual, not a business event.",
+      "confidence": 0.99
+    },
+    {
+      "id": "5b77b4e8-3fcb-465a-87fb-892ff1dceea4",
+      "label": "fail",
+      "pred": "fail",
+      "reason": "This is an exam result/counselling notice for a university entrance test, not a reportable business event.",
+      "confidence": 0.97
+    },
+    {
+      "id": "268ae8c5-928b-4de8-b0bb-306274a5bb6a",
+      "label": "fail",
+      "pred": "fail",
+      "reason": "This is awareness-week promotional content about a general environmental cause, not a specific reportable business event.",
+      "confidence": 0.92
+    },
+    {
+      "id": "8989f6e9-d077-4e1a-b440-4af13b907706",
+      "label": "pass",
+      "pred": "pass",
+      "reason": "Specific funding event: Global Geoscience Ltd raised $53 million via a fully underwritten share placement to fund its Rhyolite Ridge Lithium-Boron Project.",
+      "confidence": 0.95
+    },
+    {
+      "id": "d8c0e5fa-3167-42e1-b920-f3a442867787",
+      "label": "pass",
+      "pred": "pass",
+      "reason": "Specific partnership event: LPU signed an MoU with Pegasystems to join its University Academic Programme, a concrete dated business agreement between two named organizations.",
+      "confidence": 0.88
+    },
+    {
+      "id": "cc612bce-76a3-40e8-9277-fd08007eed59",
+      "label": "fail",
+      "pred": "fail",
+      "reason": "Promotional marketing page on the university's own website inviting students to apply for scholarships, with no specific dated business event.",
+      "confidence": 0.97
+    },
+    {
+      "id": "b7a1b596-5e4f-4c35-a70d-5f5b3b0111ae",
+      "label": "pass",
+      "pred": "pass",
+      "reason": "Press release announces a concrete, specific product launch event \u2014 Dillard's first influencer collaboration for childrenswear with Brooke Jensen \u2014 with a dated launch and distribution details.",
+      "confidence": 0.82
+    },
+    {
+      "id": "6000ea44-0893-4876-82f7-eaea1b570d85",
+      "label": "fail",
+      "pred": "fail",
+      "reason": "Exam date announcement is a non-business academic/admissions notice, not a reportable business event.",
+      "confidence": 0.97
+    }
+  ]
+}
