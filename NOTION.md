@@ -195,8 +195,15 @@ each carrying `found_at`, model, prompt_version, cost, latency), `review_queue`,
 3. LLM cost & latency by check.
 4. Human-review backlog.
 
-> _[INSERT SCREENSHOT: dashboard top — 4 metric cards + fail-rate trend]_
-> _[INSERT SCREENSHOT: dashboard bottom — top LLM fail reasons, cost/latency table, review backlog]_
+**Dashboard top — metric cards + rule-vs-LLM fail-rate trend:**
+
+![Dashboard top](docs/screenshots/dashboard_top.png)
+
+**Dashboard bottom — top LLM fail reasons, cost/latency by check, human-review backlog:**
+
+![Dashboard bottom](docs/screenshots/dashboard_bottom.png)
+
+_(full image: `docs/screenshots/dashboard_full.png`)_
 
 **Example insights from the live DB:** LLM cost is dominated by the two Sonnet checks
 (source_credibility ≈$0.004/call, entity ≈$0.003, semantic/Haiku ≈$0.001); the top LLM failure reason
